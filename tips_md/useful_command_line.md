@@ -148,5 +148,4 @@ out.fq.gz`
 
 #### subsample using `pigz`
 
-`seqtk sample -s100 ../rnaseq_reads/SRR5494630.fastq.gz 1000000 | pigz -p 4 -c -
-> test_gzip_pip.fastq.gz`
+`seqtk sample -s100 ../rnaseq_reads/SRR5494630.fastq.gz 1000000 | pigz -p 4 -c - > test_gzip_pip.fastq.gz`
