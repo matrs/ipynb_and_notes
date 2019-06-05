@@ -133,7 +133,7 @@ parallel "$AWK {}" ::: *.quality
 
 `find . -printf "%T@ %Tc %p\n" | sort -n`
 
-## Sort files from `find` with `ls`
+### Sort files from `find` with `ls`
 for examples by size:
 
 `find . -type f -name '*fastq.gz' |xargs ls -lSrh`
